@@ -27,7 +27,7 @@ def show_question():
     radiobutton3.setChecked(False)
     radiobutton4.setChecked(False)
     radiogrop.setExclusive(True)
-#привет
+
 def next_question():
     global questions
     global total
@@ -39,7 +39,7 @@ def next_question():
     q = questions[0]
     questions.remove(q)
     ask(q)   
-
+#привет
 def ask(q: Question):
     shuffle(answers)
     answers[0].setText(q.right_answer)
