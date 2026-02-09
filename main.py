@@ -27,7 +27,7 @@ def show_question():
     radiobutton3.setChecked(False)
     radiobutton4.setChecked(False)
     radiogrop.setExclusive(True)
-
+#привет
 def next_question():
     global questions
     global total
@@ -139,5 +139,6 @@ wiget.setLayout(vlayut2)
 
 wiget.show()
 app.exec()
+
 
 print(score / total * 100)
